@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: paleturquoise;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+header{
+    background-color: orangered;
+    width: 1140px;
+    overflow: hidden;
+    margin-top: 10px;
+
+}
+
+header div{
+    float: left;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.logo{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.categorias{
+    padding-top: 24px;
+
+}
+
+.login-registro{
+    float: right;
+    padding-top: 24px;
+
+}
+
+section{
+    background-color: white;
+}
+
+aside{
+    float: left;
+    width: 320px;
+}
+
+aside h2{
+    background-color: white;
+}
+
+section article a{
+    background-color: orangered;
+    color: white;
+}
+
+
+
+
+.tutoriales article{
+    border-top: 5px solid paleturquoise;
+    float: left;
+    width: 100%;
+    padding: 10px;
+}
+
+.tutoriales img{
+    float: left;
+    margin-right: 10px;
+}
+
+.productos{
+    width: 800px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.productos article{
+    width: 50%;
+    padding: 10px;
+    float: left;
+}
+
+.productos img{
+    width: 100%;
+}
+
+.publicidad article{
+    width: 100%;
+    padding: 10px;
+}
+
+h2.aside-titulo{
+    padding: 10px;
+    margin: 20px 0;
+}
