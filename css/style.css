@@ -5,30 +5,24 @@
 body{
     background-color: paleturquoise;
     font-family: Arial, Helvetica, sans-serif;
-    margin: auto;
-
 }
 
 header{
+    overflow: hidden;
     background-color: orangered;
     width: 1140px;
-
-    overflow: hidden;
-
-
 }
 
 header div{
     float: left;
     padding: 5px;
+    padding-top: 24px;
 }
 
 a{
     text-decoration: none;
     color: white;
     padding: 5px;
-    font-family: Arial, Helvetica, sans-serif;
-
 }
 
 .logo{
@@ -36,15 +30,13 @@ a{
     padding-left: 10px;
 }
 
-.categorias{
-    padding-top: 24px;
-
-}
-
 .login-registro{
     float: right;
-    padding-top: 24px;
+}
 
+.container{
+    width: 1140px;
+    margin: 0 auto;
 }
 
 section{
@@ -54,10 +46,9 @@ section{
 aside{
     float: left;
     width: 320px;
-
 }
 
-aside h2{
+aside div h2{
     background-color: white;
 }
 
@@ -66,13 +57,10 @@ section article a{
     color: white;
 }
 
-.tutoriales{
-    
-}
 
 .tutoriales article{
-    border-bottom: 10px solid paleturquoise;
     float: left;
+    border-bottom: 10px solid paleturquoise;
     width: 100%;
     padding: 10px;
 }
@@ -83,19 +71,17 @@ section article a{
 }
 
 .productos{
-    width: 800px;
     float: left;
+    width: 800px;
     margin-right: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
-
 }
 
-
 .productos article{
+    float: left;
     width: 50%;
     padding: 10px;
-    float: left;
 }
 
 .productos img{
@@ -109,46 +95,27 @@ section article a{
 
 h2.aside-titulo{
     padding: 10px;
-
-
 }
-
-.container{
-    width: 1140px;
-    margin: 0 auto;
-}
-
 
 form{
     width: 350px;
     margin: 0 auto;
-    
-
-
-    
 }
 
 .formulario-login{
     width: 1140px;
-    align-items: center;
-    overflow: hidden;
-
-
 }
 
 .recordarme{
     text-align: right;
 }
 
-
 .alerta{
     color: orangered;
     font-size: 12px;
 }
 
-
 .boton{
-    display: inline-block;
     padding: 10px;
     background-color: turquoise;
     border-radius: 10%;
@@ -158,6 +125,23 @@ form{
 h1{
     text-align: center;
     margin: 30px;
+}
+
+input#email{
+    width: 100%;
+}
+
+input#password{
+    width: 100%;
+}
+
+input#name{
+    width: 100%;
+}
+
+a.detalle{
+    display: inline-block;
+    padding: 10px;
 }
 
 
