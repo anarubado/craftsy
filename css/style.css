@@ -5,15 +5,16 @@
 body{
     background-color: paleturquoise;
     font-family: Arial, Helvetica, sans-serif;
-
+    margin: auto;
 
 }
 
 header{
     background-color: orangered;
     width: 1140px;
+
     overflow: hidden;
-    margin-top: 10px;
+
 
 }
 
@@ -53,6 +54,7 @@ section{
 aside{
     float: left;
     width: 320px;
+
 }
 
 aside h2{
@@ -64,11 +66,12 @@ section article a{
     color: white;
 }
 
-
-
+.tutoriales{
+    
+}
 
 .tutoriales article{
-    border-top: 5px solid paleturquoise;
+    border-bottom: 10px solid paleturquoise;
     float: left;
     width: 100%;
     padding: 10px;
@@ -85,6 +88,7 @@ section article a{
     margin-right: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
+
 }
 
 
@@ -105,5 +109,56 @@ section article a{
 
 h2.aside-titulo{
     padding: 10px;
-    margin: 20px 0;
+
+
 }
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+form{
+    width: 350px;
+    margin: 0 auto;
+    
+
+
+    
+}
+
+.formulario-login{
+    width: 1140px;
+    align-items: center;
+    overflow: hidden;
+
+
+}
+
+.recordarme{
+    text-align: right;
+}
+
+
+.alerta{
+    color: orangered;
+    font-size: 12px;
+}
+
+
+.boton{
+    display: inline-block;
+    padding: 10px;
+    background-color: turquoise;
+    border-radius: 10%;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    margin: 30px;
+}
+
+
+
