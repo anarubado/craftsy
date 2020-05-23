@@ -125,7 +125,7 @@ form{
 }
 
 .boton{
-    padding: 10px;
+    padding: 10px 25px;
     background-color: #3c8dbc;
     border-radius: 10%;
     color: white;
@@ -138,14 +138,18 @@ h1{
 
 input#email{
     width: 100%;
+    padding: 5px;
+    
 }
 
 input#password{
     width: 100%;
+    padding: 5px;
 }
 
 input#name{
     width: 100%;
+    padding: 5px;
 }
 
 a.detalle{
@@ -157,6 +161,10 @@ a.detalle{
 
 .tutoriales article:last-child{
     border-bottom: none;
+}
+
+textarea{
+    width: 100%;
 }
 
 
