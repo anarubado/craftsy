@@ -151,7 +151,8 @@ input#name{
 a.detalle{
     display: inline-block;
     padding: 10px;
-    margin: 10px 0;
+    margin-bottom: 10px;
+
 }
 
 .tutoriales article:last-child{
