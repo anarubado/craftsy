@@ -11,6 +11,7 @@ header{
     overflow: hidden;
     background-color: orangered;
     width: 1140px;
+    margin-bottom: 20px;
 }
 
 header div{
@@ -48,19 +49,29 @@ aside{
     width: 320px;
 }
 
-aside div h2{
+h2.aside-titulo{
     background-color: white;
+    padding: 10px;
+    margin-top: 0px;
 }
+
 
 section article a{
     background-color: orangered;
     color: white;
 }
 
+section.tutoriales{
+    height: 424px;
+    margin-bottom: 20px;
+
+}
+
 
 .tutoriales article{
     float: left;
-    border-bottom: 10px solid paleturquoise;
+    background-color: white;
+    border-bottom: 1px solid turquoise;
     width: 100%;
     padding: 10px;
 }
@@ -75,7 +86,7 @@ section article a{
     width: 800px;
     margin-right: 20px;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .productos article{
@@ -93,9 +104,7 @@ section article a{
     padding: 10px;
 }
 
-h2.aside-titulo{
-    padding: 10px;
-}
+
 
 form{
     width: 350px;
