@@ -2,78 +2,101 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 body{
     background-image: url(../images/bg-2.png);
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
 header{
     overflow: hidden;
-    background-color: orangered;
     width: 1140px;
+    background-color: orangered;
+    padding: 10px;     
     margin-bottom: 20px;
 }
 
-header div{
-    float: left;
-    padding: 5px;
-    padding-top: 24px;
-}
-
-a{
-    text-decoration: none;
-    color: white;
-    padding: 5px;
-}
-
 .logo{
-    padding-top: 15px;
-    padding-left: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+.categorias{
+    float: left;
+    line-height: 40px;
 }
 
 .login-registro{
     float: right;
+    line-height: 40px;
 }
 
-.container{
-    width: 1140px;
-    margin: 0 auto;
+header div a{
+    padding: 5px;
 }
 
 section{
     background-color: white;
 }
 
-aside{
+.productos{   
+    float: left;
+    width: 800px;
+    margin: 0 20px 20px 0;
+    overflow: hidden;
+}
+
+.productos article{
+    float: left;
+    width: 380px;
+    margin: 10px;
+}
+
+.productos img{
+    width: 100%;
+}
+
+.detalle{
+    display: inline-block;
+    background-color: orangered;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+aside{ 
     float: left;
     width: 320px;
 }
 
-h2.aside-titulo{
+.aside-titulo{
     background-color: white;
     padding: 10px;
-    margin-top: 0px;
+    margin: 0 0 20px 0;
 }
 
-
-section article a{
-    background-color: orangered;
-    color: white;
-}
-
-section.tutoriales{
-    height: 424px;
+.tutoriales{
+    overflow: hidden;
     margin-bottom: 20px;
-
+    background: transparent;
 }
-
 
 .tutoriales article{
     float: left;
     background-color: white;
-    border-bottom: 1px solid turquoise;
+    margin-bottom: 5px;
     width: 100%;
     padding: 10px;
+    overflow: hidden;
 }
 
 .tutoriales img{
@@ -81,38 +104,39 @@ section.tutoriales{
     margin-right: 10px;
 }
 
-.productos{
-    float: left;
-    width: 800px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    margin-top: 0px;
+.tutoriales article:last-child{
+    margin-bottom: none;
 }
 
-.productos article{
-    float: left;
-    width: 50%;
-    padding: 10px;
-}
-
-.productos img{
-    width: 100%;
+.publicidad{
+    overflow: hidden;
 }
 
 .publicidad article{
+    float: left;
     width: 100%;
     padding: 10px;
 }
 
-
+.formulario-login{
+    width: 1140px;
+}
 
 form{
     width: 350px;
     margin: 0 auto;
 }
 
-.formulario-login{
-    width: 1140px;
+form h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px;
+}
+
+
+input#email, input#password, input#name{
+    width: 100%;
+    padding: 5px;
 }
 
 .recordarme{
@@ -128,39 +152,9 @@ form{
     padding: 10px 25px;
     background-color: #3c8dbc;
     border-radius: 10%;
+    border: 1px solid #3c8dbc;
     color: white;
-}
-
-h1{
-    text-align: center;
-    margin: 30px;
-}
-
-input#email{
-    width: 100%;
-    padding: 5px;
-    
-}
-
-input#password{
-    width: 100%;
-    padding: 5px;
-}
-
-input#name{
-    width: 100%;
-    padding: 5px;
-}
-
-a.detalle{
-    display: inline-block;
-    padding: 10px;
-    margin-bottom: 10px;
-
-}
-
-.tutoriales article:last-child{
-    border-bottom: none;
+    margin: 10px 0;
 }
 
 textarea{
