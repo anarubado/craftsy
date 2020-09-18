@@ -16,4 +16,5 @@ Maquetado para Desktop
 
 <img src="images/mockups/registro-craftsy.png" alt="registro-craftsy">
 
+🔹 <a href="images/mockups/craftsy-blended-mockups.pdf">Wireframes en PDF</a>
 
