@@ -1,15 +1,15 @@
-# Recreación del maquetado de Craftsy
+# Recreación del maquetado de Craftsy 📱
 
 ### Mock-ups:
 
-Home
+🔸 Home
 
 <img src="images/mockups/home-craftsy.png" alt="home-craftsy">
 
-Login
+🔹 Login
 
 <img src="images/mockups/login-craftsy.png" alt="login-craftsy">
 
-Registro
+🔸 Registro
 
 <img src="images/mockups/registro-craftsy.png" alt="registro-craftsy">
