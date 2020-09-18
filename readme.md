@@ -1,5 +1,7 @@
 # Recreación del maquetado de Craftsy 📱
 
+Maquetado para Desktop
+
 ### Mock-ups:
 
 🔸 Home
@@ -13,3 +15,5 @@
 🔸 Registro
 
 <img src="images/mockups/registro-craftsy.png" alt="registro-craftsy">
+
+
